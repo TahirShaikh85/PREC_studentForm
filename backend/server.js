@@ -1,7 +1,7 @@
 const express = require('express');
 const PORT = 3000;
 const app = express();
-const mongodb = require('./database/db');
+const mongodb = require('./database/connection');
 const cors = require('cors')
 
 app.use(express.json());
